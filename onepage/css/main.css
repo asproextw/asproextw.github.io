@@ -1,0 +1,114 @@
+nav {background: rgba(0,0,0,0.6);} 
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {-webkit-appearance: none;}
+input[type="number"]{ -moz-appearance: textfield;}
+#gototop{
+	position:fixed;
+	right:2px;
+	bottom:73px;
+	cursor:pointer;
+	opacity:0.9;
+}
+#gototop img {
+	width: 40px;
+}
+#success{
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    margin:auto;
+    width: 8rem;
+    height:1.6rem;
+    text-align:center;
+    display:none;
+}
+#line-icon{
+    position:fixed;
+	cursor:pointer;
+	opacity:0.6;
+    right:5px;
+    bottom:40px;
+}
+#line-icon img {
+	width: 34px;
+}
+#marquee-out,#marquee-buy{height:30px;overflow:hidden;margin:0;padding:0;}
+#marquee-out ul,#marquee-buy ul{margin:0;padding:0;}
+#marquee-out ul li,#marquee-buy ul li{float:left;list-style:none;color:#888}
+
+.head-font{
+	display:block;
+	margin-bottom:.2rem;
+	padding:.2rem 0;
+	font-size:1rem;
+	font-weight:bold;
+	line-height:2rem;
+}
+.head-price .head-font{
+	float:left;
+	margin-left:15px
+}
+.choose-image{
+	width:28%;
+	text-align:center
+}
+@media(min-width:660px){.choose-image{width:22%;}}
+@media(max-width:320px){.choose-image{width:32%;}}
+@media(max-width:280px){.choose-image{width:30%;font-size:.7rem;}}/*螢幕小於280將寬度、字體縮小*/
+.NumTol{
+	color:#fff;
+	border:2px solid #F34242;
+	background-color:#F34242;
+	border-color:#F34242;
+}	
+.quantity,.quantity-inc,.quantity-dec{
+	float:left;
+	text-align:center;
+	border:1px solid #ccc;
+	width:2rem;
+	height:2rem;
+	font-size:1.6rem;
+	line-height:1.6rem;
+	color:#333;
+}
+.quantity-inc,.quantity-dec{
+	background-color:#f4f4f4
+}
+.order-price{
+	color:#F34242;
+	font-size:1.5rem
+}
+.opacitybox{
+	opacity:0.75;
+}
+
+.buyerlist{
+    position: fixed;
+	height: 40px;
+    bottom: 0px;
+    z-index: 1;
+    overflow: hidden;
+}
+.buyercontainer {
+    margin:0px;
+	padding:5px 0px;
+}
+.buyerslide {
+    background: opacity: 0;
+	color: #fff;
+    font-size: .8rem;
+	line-height: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
