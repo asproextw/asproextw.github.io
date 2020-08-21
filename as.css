@@ -1,0 +1,37 @@
+nav {background: rgba(0,0,0,0.7);}
+#gototop{
+	position:fixed;
+	right:2px;
+	bottom:40px;
+	cursor:pointer;
+	opacity:.6;
+	z-index: 3;
+}
+#gototop img {
+	width: 40px;
+}
+#line-icon{
+    position:fixed;
+	cursor:pointer;
+	opacity:0.6;
+    right:5px;
+}
+#line-icon img {
+	width: 34px;
+}
+.bgimage {
+  background-image: url(img/bg5.png);
+  background-attachment: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-position: center;
+  background-size: cover;
+  z-index: -999;
+}
+.btn:focus,.btn:active:focus,.btn.active:focus,.btn.focus,.btn:active.focus,.btn.active.focus {outline: none;}
+.textshadow{
+text-shadow: -1px -1px 1px #FFFFE0, 1px 1px 1px #8B4513;
+color: Orange;
+} 
